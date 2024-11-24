@@ -1,0 +1,91 @@
+< div
+// id = "accordion-collapse"
+// className = "border-l-2 border-black-150"
+// data - accordion = "collapse" >
+//     {
+//         data.map(({id, label, desc}) => (
+//             <div className="border-l-2 border-Orange-200 px-6">
+//
+//
+//                 <h2 id="accordion-collapse-heading-1" key={id} value={value}>
+//                     <button type="button"
+//                             className="flex text-left bg-transparent uppercase tracking-wider items-center w-full px-4 pt-4 font-TitlingGothicFB text-5xl leading-none text-white hover:text-Orange-200  gap-4"
+//                             data-accordion-target="#accordion-collapse-body-1" aria-expanded="true"
+//                             aria-controls="accordion-collapse-body-1">
+//                         <span className="max-w-sm">{label}</span>
+//                     </button>
+//                 </h2>
+//
+//                 <div id="accordion-collapse-body-1" className="hidden"
+//                      aria-labelledby="accordion-collapse-heading-1">
+//                     <div
+//                         className="px-4 mt-2 ">
+//                         <p className="mb-2 text-black-150 font-Poppins-Regular text-md max-w-sm leading-7">Your
+//                             {desc} </p>
+//
+//                     </div>
+//                     <div className="mt-12 ml-4">
+//                         <a href=""
+//                            className="font-Poppins-Bold py-3 px-6 rounded-full border-2 border-Orange-200 text-white tracking-[3px] uppercase text-sm hover:bg-Orange-200 hover:text-black-400 transition-all">FREE
+//                             TRIAL</a>
+//                     </div>
+//                 </div>
+//             </div>
+//         ))
+//     }
+// </div>
+// </div>
+
+
+
+
+
+
+
+
+////////////
+
+
+
+{/*<div className={`pl-24  py-4 border-l-4 border-Orange-200*/}
+{/*${ accordionOpen*/}
+{/*    ? "border-l-2 border-Orange-200"*/}
+{/*    : "border-l-2 border-black-200"*/}
+{/*}`} >*/}
+{/*            <button*/}
+{/*                onClick={() => setAccordionOpen(!accordionOpen)}*/}
+{/*                className="flex items-center w-full"*/}
+{/*            >*/}
+{/*                <h1 className={`cursor-pointer py-0 mr-6 max-w-sm text-left bg-transparent uppercase tracking-wider items-center w-full font-TitlingGothicFB text-3xl leading-none hover:text-black-50*/}
+{/*                    ${ !accordionOpen*/}
+{/*                    ? "uppercase max-w-lg text-black-150 my-[-4px] text-3xl hover:text-Orange-200"*/}
+{/*                    : "uppercase opacity-100 text-white text-5xl hover:text-Orange-100"*/}
+{/*                }`}>*/}
+{/*                {title}</h1>*/}
+{/*                /!* {accordionOpen ? <span>-</span> : <span>+</span>} *!/*/}
+
+{/*            </button>*/}
+
+
+{/*        <div className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm */}
+{/*                 ${accordionOpen*/}
+{/*            ? "grid-rows-[1fr] visible"*/}
+{/*            : "grid-rows-[-1fr] hidden"*/}
+{/*        }`}*/}
+{/*        >*/}
+
+{/*            <div className="">*/}
+{/*                <p className="mt-2 text-black-150 font-Poppins-Regular text-base max-w-sm leading-7">*/}
+{/*                    {desc}*/}
+{/*                </p>*/}
+{/*            </div>*/}
+{/*            <div className="mt-12 mb-6">*/}
+{/*                <a href=""*/}
+{/*                   className="font-Poppins-Bold py-3 px-6 rounded-full border-2 border-Orange-200 text-white tracking-[3px] uppercase text-sm hover:bg-Orange-200 hover:text-black-400 transition-all">FREE*/}
+{/*                    TRIAL</a>*/}
+{/*            </div>*/}
+{/*        </div>*/}
+{/*            :*/}
+{/*            <div className={`hide`}></div>*/}
+
+{/*         </div>*/}
