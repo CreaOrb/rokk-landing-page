@@ -49,3 +49,11 @@ body {
     height: auto;
     transition:0.3s all ease-in;
 }
+/*button.active{*/
+/*    color: #fff;*/
+/*    background-color: #515151;*/
+/*}*/
+
+.active-item h2{
+    height: auto;
+}

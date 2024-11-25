@@ -3,7 +3,7 @@ import logo from "../assets/img/logo-white.png";
 
 const Navbar = () => {
     return (
-        <nav className="sticky top-0 z-50 py-6 max-md:py-4  backdrop-blur">
+        <nav className="sticky top-0 z-50 py-6 max-md:py-4  backdrop-blur-lg">
             <div className="container px-4 max-md:px-8 md:px-4 mx-auto relative text-sm">
                 <div className="flex justify-between items-center">
 
