@@ -42,12 +42,13 @@ body {
 .content.open{
     height: auto;
     max-height: 500px;
-    transition:0.3s all ease-in;
+    transition:all ease-in-out 0.5s;
+
 }
 .headline.active{
     font-size: 64px;
     height: auto;
-    transition:0.3s all ease-in;
+
 }
 /*button.active{*/
 /*    color: #fff;*/
