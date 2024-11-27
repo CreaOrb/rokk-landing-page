@@ -1,6 +1,8 @@
 import Check from "../assets/img/check.png";
 import Info from "../assets/img/info-icon.svg";
 import {useState} from "react";
+import {motion} from "motion/react";
+
 
 const Pricing = () => {
     let features = [
@@ -45,11 +47,20 @@ const Pricing = () => {
     }
 
 
+
+
+
     return (
 
         <div className="pricing-section bg-black-400 bg-gradient-to-t from-black-300 from-0% to-black-400 to-25% text-Orange-200">
             <div className="container mx-auto max-md:px-6">
-                <div className="pricing-plans max-w-4xl pb-32 max-md:pb-24 mx-auto">
+                <motion.div animate={{y:0}}
+                            initial={{y:200,opacity:0}}
+                            whileInView={{opacity:1, y:0}}
+                            transition={{duration:2}}
+
+                            viewport={{ once: true, amount: 0.2 }}
+                            className="pricing-plans max-w-4xl pb-32 max-md:pb-24 mx-auto">
                     <div className="content-head text-center">
                         <h1 className="text-center text-6xl max-w-3xl max-md:text-4xl mx-auto font-TitlingGothicFB text-white tracking-wide leading-none uppercase">
                             We have got a <span
@@ -123,7 +134,7 @@ const Pricing = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </div>
     )
