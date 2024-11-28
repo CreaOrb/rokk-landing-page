@@ -21,7 +21,7 @@ const Cta = () => {
                                 </h1>
                             </div>
                             <div className="col-span-2">
-                                <div className="btn flex max-md:justify-center">
+                                <div className="max-md:mt-8 max-md:mb-4 btn flex max-md:justify-center">
                                     <div className="relative ">
                                         <a href="https://services.rokk-api.com/"
                                            className="  shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-4 max-md:mt-8 max-md:text-xs py-6 px-8 rounded-full bg-Orange-200  text-white tracking-[3px] uppercase text-md hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">
