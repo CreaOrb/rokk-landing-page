@@ -5,9 +5,9 @@ const Cta = () => {
     return (
         <div className="cta-section pt-24 pb-12 max-md:pt-18 max-md:pb-6 bg-gradient-to-b from-black-300 from-0% to-black-500 to-75%">
             <div className="container mx-auto px-8 max-md:px-6">
-                <motion.div initial={{y:50, opacity:0,}}
-                     animate={{ y:0, }}
-                     whileInView={{opacity:1, y:-40}}
+                <motion.div initial={{y:50, opacity:0, scale:0.8}}
+                     animate={{ y:0,scale:0.8 }}
+                     whileInView={{opacity:1, y:-40, scale: 1}}
                      viewport={{ once: true}}
                      transition={{ duration: 0.5, delay: 0.2 }}
                     className="cta-body card bg-black-100 p-[2px] rounded-3xl hover:bg-gradient-to-r ease-in  bg-gradient-to-l from-Orange-200 to-black-100/10">
