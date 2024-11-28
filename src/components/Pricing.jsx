@@ -68,7 +68,7 @@ const Pricing = () => {
                             Perfect for you
                         </h1>
                         <p className={`mx-auto text-center transition-all ease-in mt-2 text-black-150 font-Poppins-Regular max-md:text-md text-base max-w-lg leading-7`}>
-                            Save even more on annual plans & combine them with a Student or Family discount.
+                            We have got a Pricing that’s Perfect for you
                         </p>
 
 
@@ -99,8 +99,7 @@ const Pricing = () => {
                                                     className="font-Poppins-Regular text-xl text-black-150">/per month</span>
                                             </h4>
                                         </div>
-                                        <p className=" mt-4 font-Poppins-Regular text-lg text-black-150">30 Days Free
-                                            Trial</p>
+                                        <p className=" mt-4 font-Poppins-Regular text-lg text-black-150">30 Days Free Trial</p>
                                         <div className="btn">
                                             <div className="relative mt-12 max-md:mb-12">
                                                 <a href="https://services.rokk-api.com/"
