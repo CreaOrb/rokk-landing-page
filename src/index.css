@@ -10,6 +10,12 @@ body {
     background-color: #111111;
     overflow-x: hidden;
 }
+.card-price .info-icon{
+    position: absolute;
+    -webkit-justify-content:flex-end;
+    -webkit-align-items: flex-end;
+}
+
 
 @layer base {
     @font-face {

@@ -86,8 +86,8 @@ const Pricing = () => {
                             className="card-price bg-black-100 p-[2px] rounded-3xl  transition ease-in duration-300  hover:bg-gradient-to-l  bg-gradient-to-r from-Orange-200 to-black-100/10">
                             <div className="body p-[1px] bg-black-100 rounded-3xl ">
                                 <div className="grid  grid-cols-12 max-md:grid-cols-1 gap-0 p-8 max-md:p-6">
-                                    <div className="absolute justify-self-end">
-                                        <a href="https://rokk-app.com/faq">
+                                    <div className="info-icon absolute justify-self-end ">
+                                        <a className="justify-self-end" href="https://rokk-app.com/faq">
                                             <img className="" src={Info} alt=""/>
                                         </a>
                                     </div>
