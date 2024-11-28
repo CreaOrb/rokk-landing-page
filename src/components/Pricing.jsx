@@ -1,6 +1,5 @@
 import Check from "../assets/img/check.png";
 import Info from "../assets/img/info-icon.svg";
-import {useState} from "react";
 import {motion} from "motion/react";
 
 

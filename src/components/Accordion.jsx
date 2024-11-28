@@ -1,6 +1,5 @@
 import {useState} from "react";
 import Element from "../assets/img/dot-element.png"
-import dot from "../assets/img/dot.png"
 
 const Accordion = ({accordionItems}) => {
 const [activeIndex, setActiveIndex] = useState(null);
