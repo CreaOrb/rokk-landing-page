@@ -12,7 +12,7 @@ const App = () => {
     return (
 
         <main className="relative scroll-smooth overflow-x-hidden">
-            <div className="overflow-x-hidden img absolute w-screen max-md:top-16 top-12 h-screen -z-50 ">
+            <div className="overflow-x-hidden img absolute w-fit max-md:top-16 top-12 h-screen -z-50 ">
                 <motion.img
                     initial={{opacity:0, scale:0.9}}
                     animate={{opacity:1,scale:1 }}
