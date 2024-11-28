@@ -104,7 +104,7 @@ const Pricing = () => {
                                         <div className="btn">
                                             <div className="relative mt-12 max-md:mb-12">
                                                 <a href="https://services.rokk-api.com/"
-                                                   className=" shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-5 max-md:text-sm py-4 px-8 rounded-full bg-Orange-200  text-white tracking-[3px] uppercase text-md hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">START
+                                                   className=" shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-5 max-md:text-xs py-4 px-8 rounded-full bg-Orange-200  text-white tracking-[3px] uppercase text-md hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">START
                                                     YOUR FREE TRIAL</a>
                                             </div>
                                         </div>
