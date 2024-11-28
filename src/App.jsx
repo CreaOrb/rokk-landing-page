@@ -16,7 +16,7 @@ const App = () => {
                 <motion.img
                     initial={{opacity:0, scale:0.9}}
                     animate={{opacity:1,scale:1 }}
-                    transition={{duration:1.5, delay:0.5}}
+                    transition={{duration:1.4, delay:0.4}}
 
                     src={Banner} className="w-100% bg-cover object-cover fixed z-0"
                      alt=""/>

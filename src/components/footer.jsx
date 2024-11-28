@@ -16,15 +16,15 @@ const Footer = () => {
                             <img className="h-11 max-md:h-8" src={logo} alt=""/>
                         </div>
                         <div className="flex justify-center items-center">
-                            <a href=""
+                            <a href="https://www.youtube.com/@ROKKSTREAMING"
                                className="pl-6 max-md:pl-3  rounded-full border-0 ">
                                 <img className="h-14 max-md:h-10" src={Youtube} alt=""/>
                             </a>
-                            <a href=""
+                            <a href="https://www.instagram.com/rokkstreaming/"
                                className="pl-6 max-md:pl-3  rounded-full border-0 ">
                                 <img className="h-14 max-md:h-10" src={Insta} alt=""/>
                             </a>
-                            <a href=""
+                            <a href="https://www.facebook.com/rokkstreamingapp"
                                className="pl-6 max-md:pl-3 rounded-full border-0 ">
                                 <img className="h-14 max-md:h-10" src={Fb} alt=""/>
                             </a>
@@ -42,11 +42,11 @@ const Footer = () => {
                                  </a>
                              </div>
                              <div className="max-md:mt-6 terms">
-                                 <a href=""
+                                 <a href="https://rokk-app.com/privacy-policy"
                                     className="text-black-50 font-Poppins-Regular text-base ">
                                      Privacy Policy
                                  </a>
-                                 <a href=""
+                                 <a href="https://rokk-app.com/terms-of-use"
                                     className="ml-10 text-black-50 font-Poppins-Regular text-base ">
                                      Terms of Use
                                  </a>

@@ -11,8 +11,8 @@ const Navbar = () => {
                             <img className="h-11 max-md:h-8" src={logo} alt=""/>
                         </div>
                         <div className="flex justify-center items-center">
-                            <a href="" className="font-Poppins-Bold max-md:py-3 max-md:px-3 py-4 px-6 rounded-full border-0 border-Orange-200 text-white tracking-[3px] uppercase text-sm hover:bg-black-200 transition-all visible max-sm:hidden">Download App</a>
-                            <a href="" className="font-Poppins-Bold max-md:py-3 max-md:px-3 max-md:text-xs ml-4 py-4 px-6 rounded-full border-2 border-Orange-200 text-white tracking-[3px] uppercase text-sm hover:bg-Orange-200 hover:text-black-400 transition-all">FREE TRIAL</a>
+                            <a href="https://services.rokk-api.com/" className="font-Poppins-Bold max-md:py-3 max-md:px-3 py-4 px-6 rounded-full border-0 border-Orange-200 text-white tracking-[3px] uppercase text-sm hover:bg-black-200 transition-all visible max-sm:hidden">Download App</a>
+                            <a href="https://services.rokk-api.com/" className="font-Poppins-Bold max-md:py-3 max-md:px-3 max-md:text-xs ml-4 py-4 px-6 rounded-full border-2 border-Orange-200 text-white tracking-[3px] uppercase text-sm hover:bg-Orange-200 hover:text-black-400 transition-all">FREE TRIAL</a>
                         </div>
 
                 </div>

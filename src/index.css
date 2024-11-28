@@ -58,3 +58,7 @@ body {
 .active-item h2{
     height: auto;
 }
+.card-price {
+    transition: all ease-in-out 0.5s;
+
+}

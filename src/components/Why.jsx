@@ -12,35 +12,35 @@ const Why = () => {
     const accordionItems = [
         {
             id:1,
-            title: "All your favourite bands & Genre",
+            title: "All your favourite bands and genres",
             image: {imgOne},
-            desc: `Your favourite bands in any imaginable genre + top-notch recommendations & playlists. `,
+            desc: `Your favourite bands in every genre you can think of + top-notch recommendations & playlists. `,
         },
         {
             id:2,
-            title: "all other styles of music",
+            title: "All other styles of music",
             image: {imgTwo},
-            desc: `Your favourite bands in any imaginable genre + top-notch recommendations & playlists. `,
+            desc: `Our focus is Rock & Metal, but you can listen to anything you want! `,
         },
         {
             id:3,
-            title: "High quality audio",
-            desc: `Your favourite bands in any imaginable genre + top-notch recommendations & playlists. `,
+            title: "High Quality Audio",
+            desc: `Our basic streaming quality already meets the standard of what is considered HiFi.`,
         },
         {
             id:4,
             title: "More € per stream",
-            desc: `Your favourite bands in any imaginable genre + top-notch recommendations & playlists. `,
+            desc: `With ROKK there is more € for the bands/artists you listen to `,
         },
         {
             id:5,
             title: "Direct Artist Support",
-            desc: `Your favourite bands in any imaginable genre + top-notch recommendations & playlists. `,
+            desc: `The ROKK HIFI plan allows you to directly support a ROKK partner artist of your choice.`,
         },
         {
             id:6,
-            title: "Import Playlists",
-            desc: `Your favourite bands in any imaginable genre + top-notch recommendations & playlists. `,
+            title: "Import Playlist",
+            desc: `With an easy import function for your favourite playlists from other services. `,
         },
     ];
     return (

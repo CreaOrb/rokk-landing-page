@@ -1,10 +1,15 @@
 import React from 'react'
+import {motion} from "motion/react";
 
 const Cta = () => {
     return (
         <div className="cta-section pt-24 pb-12 max-md:pt-18 max-md:pb-6 bg-gradient-to-b from-black-300 from-0% to-black-500 to-75%">
             <div className="container mx-auto px-8 max-md:px-6">
-                <div
+                <motion.div initial={{y:50, opacity:0,}}
+                     animate={{ y:0, }}
+                     whileInView={{opacity:1, y:-40}}
+                     viewport={{ once: true}}
+                     transition={{ duration: 0.5, delay: 0.2 }}
                     className="cta-body card bg-black-100 p-[2px] rounded-3xl hover:bg-gradient-to-r ease-in  bg-gradient-to-l from-Orange-200 to-black-100/10">
                     <div className="cta p-[1px] bg-black-100 rounded-3xl">
                         <div className="grid grid-cols-6 max-md:grid-cols-1 gap-0 p-12 max-md:p-6 py-16 items-center">
@@ -18,15 +23,15 @@ const Cta = () => {
                             <div className="col-span-2">
                                 <div className="btn flex max-md:justify-center">
                                     <div className="relative ">
-                                        <button href=""
+                                        <a href="https://services.rokk-api.com/"
                                            className="  shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-4 max-md:mt-8 max-md:text-sm py-6 px-8 rounded-full bg-Orange-200  text-white tracking-[3px] uppercase text-md hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">
-                                            START YOUR FREE TRIAL</button>
+                                            START YOUR FREE TRIAL</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
 
             </div>
